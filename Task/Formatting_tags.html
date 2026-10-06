@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatting Tags and Feedback Form</title>
+
+</head>
+<body id="top">
+    <h1>HTML Formatting Tags</h1>
+    <h2>Bold and Strong</h2>
+    <p>
+        This is <b>bold text</b> using the b tag.
+    </p>
+    <p>
+        This is <strong>important text</strong> using the strong tag.
+    </p>
+
+    <h2>Italic and Emphasis</h2>
+
+    <p>
+        This is <i>italic text</i> using the i tag.
+    </p>
+
+    <p>
+        This is <em>emphasized text</em> using the em tag.
+    </p>
+
+    <h2>Other Formatting Tags</h2>
+
+    <p>
+        This is <u>underlined text</u>.
+    </p>
+
+    <p>
+        This is <mark>highlighted text</mark>.
+    </p>
+
+    <p>
+        This is normal text
+        <small>with a small side note.</small>
+    </p>
+
+    <h2>Links</h2>
+
+    <p>
+        <a href="https://www.google.com" target="_blank">
+            Visit Google
+        </a>
+    </p>
+
+    <p>
+        <a href="#feedback">
+            Go to Feedback Form
+        </a>
+    </p>
+
+    <h2 id="feedback">Feedback Form</h2>
+
+    <form>
+
+        <label for="name">
+            <b>Name:</b>
+        </label>
+
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name">
+
+        <br><br>
+
+        <label for="email">
+            <b>Email:</b>
+        </label>
+
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email">
+
+        <br><br>
+
+        <label for="password">
+            <b>Password:</b>
+        </label>
+
+        <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password">
+
+        <br><br>
+
+        <b>Gender:</b>
+
+        <input
+            type="radio"
+            id="male"
+            name="gender"
+            value="male">
+
+        <label for="male">Male</label>
+
+        <input
+            type="radio"
+            id="female"
+            name="gender"
+            value="female">
+
+        <label for="female">Female</label>
+
+        <br><br>
+
+
+        <!-- Checkbox -->
+        <input
+            type="checkbox"
+            id="agree"
+            name="agree">
+
+        <label for="agree">
+            I agree to the <u>terms and conditions</u>.
+        </label>
+
+        <br><br>
+
+
+        <!-- Textarea -->
+        <label for="feedback">
+            <b>Feedback:</b>
+        </label>
+
+        <br>
+
+        <textarea
+            id="feedback"
+            name="feedback"
+            rows="5"
+            cols="40"
+            placeholder="Write your feedback here...">
+        </textarea>
+
+        <br><br>
+        <p>
+            <mark>Thank you for your valuable feedback!</mark>
+        </p>
+
+        <button type="submit">
+            Submit
+        </button>
+
+        <button type="reset">
+            Reset
+        </button>
+
+    </form>
+    <p>
+        <a href="#top">Back to Top</a>
+    </p>
+
+</body>
+
+</html>
